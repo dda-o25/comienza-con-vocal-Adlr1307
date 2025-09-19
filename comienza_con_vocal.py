@@ -4,7 +4,7 @@ El propósito de este código es determinar si una palábra comienza con una voc
 """
 
 # Declaraciones
-vocales = "aeiouáéíóú"
+vocales = "aeiouáéíóúü"
 
 # Entradas
 palabra = input("Introduzca una palabra ")
