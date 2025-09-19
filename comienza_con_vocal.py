@@ -1,15 +1,15 @@
 """
-Inserta el encabezado aquí y escribe tu código abajo
+Andrés Enrique Jaime de la Rosa 763799
 """
 
 # Declaraciones
-CONSTANTE = valor
+vocales = "aeiouáéíóú"
 
 # Entradas
-entrada = input()
+palabra = input("Introduzca una palabra ")
 
 # Proceso
-
-
-# Salidas
-print(salida)
+if palabra[0].lower() in vocales:
+    print(palabra,"comienza con vocal")
+else:
+    print(palabra,"no comienza con vocal")
