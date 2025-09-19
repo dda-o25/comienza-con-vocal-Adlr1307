@@ -11,6 +11,6 @@ palabra = input("Introduzca una palabra ")
 
 # Proceso
 if palabra[0].lower() in vocales:
-    print(f"'{palabra}'comienza con vocal")
+    print(f"'{palabra}' comienza con vocal")
 else:
-    print(f"'{palabra}'no comienza con vocal")
+    print(f"'{palabra}' no comienza con vocal")
