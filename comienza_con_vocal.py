@@ -1,5 +1,6 @@
 """
 Andrés Enrique Jaime de la Rosa 763799
+El propósito de este código es determinar si una palábra comienza con una vocal
 """
 
 # Declaraciones
@@ -10,6 +11,6 @@ palabra = input("Introduzca una palabra ")
 
 # Proceso
 if palabra[0].lower() in vocales:
-    print(palabra,"comienza con vocal")
+    print(f"'{palabra}'comienza con vocal")
 else:
-    print(palabra,"no comienza con vocal")
+    print(f"'{palabra}'no comienza con vocal")
